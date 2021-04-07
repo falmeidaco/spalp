@@ -1,0 +1,246 @@
+/*
+font-family: 'Alice', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/* Variables */
+/* Bootstrap Overwrite */
+.btn {
+  border-radius: 50px;
+  font-family: 'Alice', serif;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #034A8B;
+  border: none;
+}
+
+.btn-primary-red {
+  color: white;
+  background-color: #CD395D;
+  border: none;
+}
+
+.btn-primary-red:hover {
+  background-color: #EC335F;
+  color: white;
+}
+
+.btn-outline-white {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-white:hover {
+  color: #FBF4AF;
+  border-color: #FBF4AF;
+}
+
+.btn-xlg {
+  font-size: 1.5em;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 600px;
+    margin: 1.75rem auto;
+  }
+}
+
+.modal-content {
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  padding: 10px;
+  border-radius: 0;
+  background-color: rgba(245, 236, 194, 0.7);
+}
+
+.modal-body {
+  padding: 0;
+  line-height: 0;
+}
+
+/* Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#content-header {
+  background: white url("dist/assets/bg.png") top center no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+#content-header .header-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #002D57;
+}
+
+#content-about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#content-about h2 {
+  font-family: 'Alice', serif;
+  color: #034A8B;
+  font-size: 1.8em;
+}
+
+#curso {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 10px solid #D31945;
+  background-color: #002D57;
+  color: white;
+  background: #002D57 url("dist/assets/bg-course.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#curso .logo-curso {
+  margin-top: 20px;
+}
+
+#curso .text-1 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#curso .text-2 {
+  text-align: center;
+  font-family: 'Alice', serif;
+  color: #FBF4AF;
+  font-size: 1.6em;
+  margin: 15px auto;
+}
+
+#curso .text-modules {
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#curso .text-modules h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#curso .btn:first-child {
+  margin-right: 20px;
+}
+
+#content-materials {
+  border-top: 3px solid white;
+  background-color: #034A8B;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#content-materials h3 {
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#content-materials h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#content-materials p {
+  font-size: 14px;
+}
+
+#content-social {
+  padding: 30px 0;
+}
+
+#content-social .container {
+  background-color: #002D57;
+  color: white;
+  border-radius: 20px;
+}
+
+#content-social .container h3 {
+  font-family: 'Alice', serif;
+  color: #FBF4AF;
+}
+
+#content-social .content {
+  padding-top: 30px;
+}
+
+#content-social a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Tables */
+@media screen and (max-width: 768px) {
+  #curso .logo-curso {
+    margin-bottom: 20px;
+  }
+  #curso .text-1 {
+    text-align: center;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 576px) {
+  #content-header .header-text {
+    text-align: center;
+    font-size: 1em;
+  }
+  #content-about {
+    text-align: center;
+  }
+  #content-about img {
+    max-width: 150px;
+  }
+  #curso {
+    padding-top: 20px;
+  }
+  #curso .logo-curso {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #curso .text-1 {
+    text-align: center;
+  }
+  #curso .text-modules img {
+    max-width: 200px;
+  }
+  #curso .text-modules p {
+    font-size: 16px;
+  }
+  #curso .btn {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+    display: block;
+  }
+  #content-social {
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+  }
+  #content-social h3 {
+    font-size: 1.3em;
+  }
+  #content-social .container {
+    border-radius: 0;
+  }
+}
